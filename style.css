@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-  --primary-color: #0f1a2c;
-  --secondary-color: #f6ac0f;
+  --primary-color: #0b0303;
+  --secondary-color: #fe8c22;
   --text-dark: #0f172a;
   --text-light: #64748b;
   --extra-light: #f8fafc;
   --white: #ffffff;
   --max-width: 1200px;
-  --header-font: "Playfair Display", serif;
+  --header-font: "PT serif", serif;
 }
 
 * {
@@ -89,6 +89,11 @@
 .logo div {
   padding-inline: 12px;
   font-size: 2rem;
+}
+
+img{
+  width: 100%;
+  display: flex;
 }
 
 a {
@@ -221,6 +226,90 @@ nav {
   color: var(--text-light);
 }
 
+
+/* ABOUT */
+.about{
+  position: relative;
+  isolation: isolate;
+}
+
+#sub_about{
+  font-size: 50px;
+  font-family: "PT serif", serif;
+}
+
+.about::before{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  height: 75%;
+  width: 100%;
+  background-image: url("gambar/aboutbg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.about__container{
+  display: grid;
+  gap: 4rem 2rem;
+}
+
+.about__grid{
+  display: grid;
+  gap: 1rem;
+}
+
+.about__card{
+  height: 100%;
+  padding: 2rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.about__card span{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.about__card h4{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: var(--header-font);
+  color: var(--text-dark);
+}
+
+.about__card p{
+  color: var(--text-light);
+}
+
+.about__card:nth-child(4) {
+  background-color: var(--primary-color);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about__card:nth-child(4) :is(h4, p){
+  color: var(--white);
+}
+
+.about__image img{
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about__content .section__description{
+  margin-bottom: 2rem;
+}
+/* ABOUT */
+
+
 @media (width > 480px) {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -302,5 +391,20 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
   }
+
+  .about::before{
+    height: 75%;
+    width: 75%;
+  }
+
+  .about__container{
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 }
  
+@media (width > 1024px){
+  .about__grid{
+    gap: 2rem;
+  }
+}

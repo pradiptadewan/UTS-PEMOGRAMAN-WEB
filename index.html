@@ -3,13 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     <title>Homestay Joglo Dhepis</title>
   </head>
+
   <body>
     <nav>
       <div class="nav__bar">
@@ -17,6 +15,12 @@
           <div class="logo nav__logo">
             <div>JD</div>
             <span>HOMESTAY<br/>JOGLODHEPIS</span>
+            <div></div>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
           </div>
           <div class="nav__menu__btn" id="menu-btn">
             <i class="ri-menu-line"></i>
@@ -54,7 +58,42 @@
             <label for="guests">Nama Tamu</label>
             <input type="text" placeholder="Nama Anda" />
           </div>
-          <button class="btn">Cek Ketersediaan</button>
+          <button class="btn" id="btn_book">Cek Ketersediaan</button>
         </form>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="gambar/about1.jpg" alt="Joglo Dhepis">
+          </div>
+          <div class="about__card">
+            <span> <i class="ri-user-line"></i></span>
+            <h4>Bintang Lima</h4>
+            <p>
+              Fasilitas dan Pelayanan yang Menjaga Keamanan dan Kenyamanan 
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="gambar/about2.jpg" alt="Joglo Dhepis">
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4>Lingkungan yang Nyaman</h4>
+            <p>Rasakan Kenikmatan Menginap di Tempat Kami</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader" id="sub_about"> TENTANG KAMI</p>
+          <h2 class="section__header"></h2>
+          <p class="section__description">
+            Mari jelajahi kemewahan di penginapan kami, tempat kenyamanan dan keindahan bersatu.
+            Di sini, Anda akan menemukan pengalaman yang tak terlupakan, di mana setiap sudut memancarkan keanggunan dan keindahan. 
+            Sambutlah perjalanan Anda ke tempat yang penuh pemandangan indah di penginapan kami.
+          </p>
+          <button class="btn">Booking Sekarang</button>
+        </div>
       </div>
     </section>
