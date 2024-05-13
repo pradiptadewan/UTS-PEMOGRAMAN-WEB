@@ -336,12 +336,14 @@ h2{
   margin: auto;
   margin-top: 20px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 iframe{
   width: 100%;
   height: 300px;
-
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (width > 480px) {
@@ -676,4 +678,10 @@ img {
   color: var(--text-light);
   text-align: center;
   font-weight: bold;
+}
+
+hr{
+  margin: 0 auto;
+  width: 85%;
+  height: 2px;
 }
