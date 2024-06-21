@@ -164,8 +164,18 @@ nav {
   transition: 0.3s;
 }
 
+.nav__links a.daftar:hover{
+  color: var(--extra-light);
+}
+
 .nav__links a:hover {
   color: var(--secondary-color);
+}
+
+.daftar {
+  background-color: #f6ac0f;
+  padding: 5px 3px 5px 3px;
+  border-radius: 7%;
 }
 
 .header {
@@ -321,7 +331,6 @@ nav {
 }
 
 /* MAPS */
-
 h2{
   text-align: center;
   font-size: 3rem;
