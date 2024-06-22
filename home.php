@@ -1,3 +1,9 @@
+<?php
+session_start();
+include("connect.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +40,7 @@
         <li><a href="#about">Tentang Kami</a></li>
         <li><a href="#room">Ruangan</a></li>
         <li><a href="#fiturr">Fasilitas</a></li>
-        <li><a href="login_register.php" class="daftar">Sign Up / Sign in</a></li>
+        <li><a href="logout.php" style="background-color: red; padding: 5px 3px 5px 3px; border-radius: 7%;">Logout</a></li>
       </ul>
     </div>
   </nav>

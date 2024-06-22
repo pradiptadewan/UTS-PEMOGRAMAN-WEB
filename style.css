@@ -178,6 +178,12 @@ nav {
   border-radius: 7%;
 }
 
+#logout{
+  background-color: #f60f0f;
+  padding: 5px 3px 5px 3px;
+  border-radius: 7%;
+}
+
 .header {
   padding-block: 5rem;
   background-image: linear-gradient(

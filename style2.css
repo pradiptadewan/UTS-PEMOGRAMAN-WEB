@@ -77,3 +77,39 @@ body{
 .auth-box p a:hover {
     text-decoration: underline;
 }
+
+.login_btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px; /* Padding for better click area */
+    font-size: 10px; /* Font size for better readability */
+    color: #fff; /* White text */
+    background-color: #007bff; /* Primary blue background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.register_btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px; /* Padding for better click area */
+    font-size: 10px; /* Font size for better readability */
+    color: #fff; /* White text */
+    background-color: #007bff; /* Primary blue background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.login_btn:hover{
+    background-color: #64748b;
+}
+
+.register_btn:hover{
+    background-color: #64748b;
+}
