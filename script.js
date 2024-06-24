@@ -20,7 +20,6 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-// header
 ScrollReveal().reveal(".header__container .section__subheader", {
   ...scrollRevealOption,
 });
@@ -35,7 +34,6 @@ ScrollReveal().reveal(".header__container .btn", {
   delay: 1000,
 });
 
-// about
 ScrollReveal().reveal(".about p", {
     ...scrollRevealOption,
     interval: 500,
@@ -61,13 +59,11 @@ ScrollReveal().reveal(".about p", {
     interval: 500,
   });
 
-// room container
 ScrollReveal().reveal(".room__card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-// feature container
 ScrollReveal().reveal(".feature__card", {
   ...scrollRevealOption,
   interval: 500,
@@ -77,3 +73,4 @@ ScrollReveal().reveal(".maps", {
     ...scrollRevealOption,
     interval: 500,
   });
+

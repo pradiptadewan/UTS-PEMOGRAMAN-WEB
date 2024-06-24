@@ -512,6 +512,18 @@ img {
   gap: 0 1rem;
 }
 
+.room__grid a{
+  background-color: #f6ac0f;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 7%;
+}
+
+.room__grid a:hover{
+  background-color: #bd8100;
+  color: var(--extra-light);
+}
+
 .room__card img {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
@@ -695,8 +707,27 @@ img {
   font-weight: bold;
 }
 
-hr{
+hr {
   margin: 0 auto;
   width: 85%;
   height: 2px;
+}
+
+.booking__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(gambar/about--bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.booking_box2{
+  background: rgba(255, 255, 255, 0.88);
+  padding: 50px 80px 50px 80px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }

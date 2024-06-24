@@ -14,6 +14,17 @@ include("connect.php");
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css" />
   <title>Homestay Joglo Dhepis</title>
+  <style>
+    .logout{
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      background-color: red;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
@@ -38,9 +49,9 @@ include("connect.php");
       <ul class="nav__links" id="nav-links">
         <li><a href="#beranda">Beranda</a></li>
         <li><a href="#about">Tentang Kami</a></li>
-        <li><a href="#room">Ruangan</a></li>
+        <li><a href="room.html">Ruangan</a></li>
         <li><a href="#fiturr">Fasilitas</a></li>
-        <li><a href="logout.php" style="background-color: red; padding: 5px 3px 5px 3px; border-radius: 7%;">Logout</a></li>
+        <li><a href="logout.php" class="logout">Logout</a></li>
       </ul>
     </div>
   </nav>
@@ -49,7 +60,7 @@ include("connect.php");
     <div class="section__container header__container">
       <p class="section__subheader">TENTANG KAMI</p>
       <h1>Homestay Mewah<br />Untuk Liburan Anda</h1>
-      <button class="btn">PESAN SEKARANG</button>
+      <button class="btn"  onclick="window.location.href='room.html'">PESAN SEKARANG</button>
     </div>
   </header>
 <!-- Navbar -->
@@ -86,53 +97,11 @@ include("connect.php");
           keindahan.
           Sambutlah perjalanan Anda ke tempat yang penuh pemandangan indah di penginapan kami.
         </p>
-        <button class="btn">Booking Sekarang</button>
+        <button class="btn" onclick="window.location.href='room.html'">Booking Sekarang</button>
       </div>
     </div>
   </section>
 <!-- Tentang Kami -->
-
-<!-- Room -->
-  <section class="room__container" id="room">
-    <p class="section__subheader">RUANGAN</p>
-    <h2 class="section__header">Type Kamar dan Harga</h2>
-    <div class="room__grid">
-      <div class="room__card">
-        <img src="Gambar/room1.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Standar Double</h4>
-            <p>Kamar dengan 1 tempat tidur dan fasilitas kipas angin.</p>
-          </div>
-          <h3>250K<span>/night</span></h3>
-        </div>
-      </div>
-      <div class="room__card">
-        <img src="Gambar/room2.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Deluxe Double</h4>
-            <p>Kamar dengan 1 tempat tidur dan fasilitas AC.</p>
-          </div>
-          <h3>300K<span>/night</span></h3>
-        </div>
-      </div>
-      <div class="room__card">
-        <img src="Gambar/room3.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Family Suite</h4>
-            <p>
-              Kamar keluarga dengan 2 kasur dan menggunakan AC.
-            </p>
-          </div>
-          <h3>500K<span>/night</span></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- Room -->
-
 
 <!-- Fitur -->
 <section class="section__container feature__container" id="feature">

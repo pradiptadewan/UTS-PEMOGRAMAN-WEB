@@ -32,9 +32,17 @@
       <ul class="nav__links" id="nav-links">
         <li><a href="#beranda">Beranda</a></li>
         <li><a href="#about">Tentang Kami</a></li>
-        <li><a href="#room">Ruangan</a></li>
+        <li><a href="room_notlogin.html">Ruangan</a></li>
         <li><a href="#fiturr">Fasilitas</a></li>
-        <li><a href="login_register.php" class="daftar">Sign Up / Sign in</a></li>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="login_register.php">Register / Login</a></li>
+            <li><a class="dropdown-item" href="admin_login.php">Admin</a></li>
+          </ul>
+        </div>
       </ul>
     </div>
   </nav>
@@ -43,7 +51,7 @@
     <div class="section__container header__container">
       <p class="section__subheader">TENTANG KAMI</p>
       <h1>Homestay Mewah<br />Untuk Liburan Anda</h1>
-      <button class="btn">PESAN SEKARANG</button>
+      <button class="btn"  onclick="window.location.href='login_register.php'">PESAN SEKARANG</button>
     </div>
   </header>
 <!-- Navbar -->
@@ -80,53 +88,11 @@
           keindahan.
           Sambutlah perjalanan Anda ke tempat yang penuh pemandangan indah di penginapan kami.
         </p>
-        <button class="btn">Booking Sekarang</button>
+        <button class="btn" onclick="window.location.href='login_register.php'">Booking Sekarang</button>
       </div>
     </div>
   </section>
 <!-- Tentang Kami -->
-
-<!-- Room -->
-  <section class="room__container" id="room">
-    <p class="section__subheader">RUANGAN</p>
-    <h2 class="section__header">Type Kamar dan Harga</h2>
-    <div class="room__grid">
-      <div class="room__card">
-        <img src="Gambar/room1.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Standar Double</h4>
-            <p>Kamar dengan 1 tempat tidur dan fasilitas kipas angin.</p>
-          </div>
-          <h3>250K<span>/night</span></h3>
-        </div>
-      </div>
-      <div class="room__card">
-        <img src="Gambar/room2.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Deluxe Double</h4>
-            <p>Kamar dengan 1 tempat tidur dan fasilitas AC.</p>
-          </div>
-          <h3>300K<span>/night</span></h3>
-        </div>
-      </div>
-      <div class="room__card">
-        <img src="Gambar/room3.jpg" alt="room" />
-        <div class="room__card__details">
-          <div>
-            <h4>Family Suite</h4>
-            <p>
-              Kamar keluarga dengan 2 kasur dan menggunakan AC.
-            </p>
-          </div>
-          <h3>500K<span>/night</span></h3>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- Room -->
-
 
 <!-- Fitur -->
 <section class="section__container feature__container" id="feature">
@@ -216,7 +182,7 @@
           <a href="https://www.tiktok.com/@joglodhepis_resto?_t=8mEhpPxgrNR&_r=1" target="_blank"><i
               class="ri-tiktok-fill"></i></a>
         </li>
-      </ul>
+      </ul><br><br>
     </div>
     <div class="footer__col">
       <h4>Layanan</h4>
@@ -224,7 +190,7 @@
         <li><a href="#">Pemesanan Online</a></li>
         <li><a href="#">Bayar di Tempat</a></li>
         <li><a href="#">Upgrade Kamar</a></li>
-        <li><a href="#">Vw Wisata</a></li>
+        <li><a href="#">View Wisata</a></li>
         <li><a href="#">Rumah Makan</a></li>
       </div>
     </div>

@@ -15,7 +15,7 @@
     <div class="auth-box">
       <h2>Sign Up</h2>
       <hr> <br>
-      <form action="register.php" method="POST">
+      <form action="create_login_register.php" method="POST">
         <div class="input__group">
           <label for="username">Username</label>
           <input type="text" id="username" name="username" required>
@@ -43,7 +43,7 @@
     <div class="auth-box">
       <h2>Login</h2>
       <hr> <br>
-      <form action="register.php" method="POST">
+      <form action="create_login_register.php" method="POST">
         <div class="input__group">
           <label for="email">Email</label>
           <input type="text" id="email" name="email" required>
