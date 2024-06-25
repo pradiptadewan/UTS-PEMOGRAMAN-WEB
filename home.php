@@ -70,7 +70,7 @@ include("connect.php");
     <div class="section__container about__container">
       <div class="about__grid">
         <div class="about__image">
-          <img src="gambar/about1.jpg" alt="Joglo Dhepis">
+          <img src="gambar/about--1.jpg" alt="Joglo Dhepis">
         </div>
         <div class="about__card">
           <span> <i class="ri-user-line"></i></span>
@@ -80,7 +80,7 @@ include("connect.php");
           </p>
         </div>
         <div class="about__image">
-          <img src="gambar/about2.jpg" alt="Joglo Dhepis">
+          <img src="gambar/about--2.jpg" alt="Joglo Dhepis">
         </div>
         <div class="about__card">
           <span><i class="ri-calendar-check-line"></i></span>
