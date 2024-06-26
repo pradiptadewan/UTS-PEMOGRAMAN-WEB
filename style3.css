@@ -1,0 +1,43 @@
+/* CSS */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team-member h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.team-member .social-icons {
+    margin-top: 10px; /* Tambahkan sedikit margin di atas ikon untuk memberi ruang antara teks dan ikon */
+}
+
+.social-icons a {
+    color: #343a40;
+    margin: 0 5px; /* Ubah padding menjadi margin untuk mengontrol jarak antar ikon */
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
