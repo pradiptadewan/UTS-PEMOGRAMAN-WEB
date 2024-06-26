@@ -24,7 +24,7 @@
     <div class="auth-box">
         <h2>Email atau Password Salah !!!</h2>
         <br><br><br>
-        <a href="login_register.php" class="sukses">OK</a>
+        <a href="index.html" class="sukses">OK</a>
     </div>
   </div>
 
