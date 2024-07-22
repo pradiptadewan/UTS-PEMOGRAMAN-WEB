@@ -52,7 +52,7 @@ include("connect.php");
         <li><a href="room.html">Ruangan</a></li>
         <li><a href="#fiturr">Fasilitas</a></li>
         <li><a href="team.html">Our Team</a></li>
-        <li><a href="logout.php" class="logout">Logout</a></li>
+        <li><a href="index.html" class="logout">Logout</a></li>
       </ul>
     </div>
   </nav>
