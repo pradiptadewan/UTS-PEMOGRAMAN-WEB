@@ -1,8 +1,8 @@
 <?php 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "joglodephis_login";
+$servername="localhost";
+$username="id22370939_root_login";
+$password="@Joglodephis123";
+$database="id22370939_joglodephis_login";
 
 // Create connection
 $connection = new mysqli($servername, $username, $password, $database);
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
 } else {
     // Handle POST request
-    $username = $_POST ["nama"];
+    $username = $_POST ["username"];
     $email = $_POST ["email"];
     $password = $_POST ["password"];
     $confirm_password = $_POST ["confirm_password"];
@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         $sql = "UPDATE user 
                 SET username = '$username', email = '$email', password = '$password', 
                 confirm_password = '$confirm_password'
-                WHERE id = $id";
+                WHERE email = '$email'";
 
         $result = $connection->query($sql);
 
@@ -102,7 +102,7 @@ $connection->close();
             <div class="row mb-3">
                 <label class="col-sm-3 col-form-label">Username</label>
                 <div class="col-sm-6">
-                    <input type="text" class="form-control" name="usernama" value="<?php echo $username; ?>">
+                    <input type="text" class="form-control" name="username" value="<?php echo $username; ?>">
                 </div>
             </div>
             <div class="row mb-3">
