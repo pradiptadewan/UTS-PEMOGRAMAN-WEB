@@ -4,9 +4,9 @@ if (isset($_GET["id"])) {
     $id = $_GET["id"];
     
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "joglodephis_book";
+    $username = "id22370939_root";
+    $password = "@Joglodephis123";
+    $database = "id22370939_joglodephis_book";
 
     // Membuat koneksi ke database
     $connection = new mysqli($servername, $username, $password, $database);
