@@ -46,7 +46,7 @@ include("connect.php");
         </div>
       </div>
       <ul class="nav__links" id="nav-links">
-        <li><a href="logout.php" class="logout">Logout</a></li>
+        <li><a href="index.html" class="logout">Logout</a></li>
         <div class="dropdown">
           <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Manage
@@ -86,9 +86,9 @@ include("connect.php");
                 <?php 
                 // Connection details
                 $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "joglodephis_book";
+                $username = "id22370939_root";
+                $password = "@Joglodephis123";
+                $database = "id22370939_joglodephis_book";
 
                 // Create connection
                 $connection = new mysqli($servername, $username, $password, $database);
@@ -150,9 +150,9 @@ include("connect.php");
                 <?php 
                 // Connection details
                 $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "joglodephis_book";
+                $username = "id22370939_root";
+                $password = "@Joglodephis123";
+                $database = "id22370939_joglodephis_book";
 
                 // Create connection
                 $connection = new mysqli($servername, $username, $password, $database);
@@ -214,9 +214,9 @@ include("connect.php");
                 <?php 
                 // Connection details
                 $servername = "localhost";
-                $username = "root";
-                $password = "";
-                $database = "joglodephis_book";
+                $username = "id22370939_root";
+                $password = "@Joglodephis123";
+                $database = "id22370939_joglodephis_book";
 
                 // Create connection
                 $connection = new mysqli($servername, $username, $password, $database);
